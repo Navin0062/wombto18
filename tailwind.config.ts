@@ -26,11 +26,11 @@ const config: Config = {
       },
     },
   },
-  safelist: [
-    {
-      pattern: /(bg|text)-(blue|green|orange|purple)-(100|700)/,
-    },
-  ],
+  // safelist: [
+  //   {
+  //     pattern: /(bg|text)-(blue|green|orange|purple)-(100|700)/,
+  //   },
+  // ],
   plugins: [
     require("@tailwindcss/forms"),
     require("@tailwindcss/container-queries"),
